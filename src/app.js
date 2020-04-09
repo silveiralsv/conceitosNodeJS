@@ -80,7 +80,7 @@ app.put("/repositories/:id", (request, response) => {
 
   repositories[repositoryIndex] = repository;
 
-  console.log('🍗🍗🍗🍗' + JSON.stringify(repository));
+  
   
 
   return response.json(repositories[repositoryIndex]);
